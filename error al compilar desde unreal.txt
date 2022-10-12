@@ -1,0 +1,11 @@
+Building Arcanoid_sis457Editor...
+Using Visual Studio 2022 14.31.31105 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 3 actions with 4 processes...
+  [1/3] UE4Editor-Arcanoid_sis457-6487.lib
+     Creando biblioteca C:\Users\xander\Documents\Unreal Projects\Arcanoid_sis457\Intermediate\Build\Win64\UE4Editor\Development\Arcanoid_sis457\UE4Editor-Arcanoid_sis457-6487.lib y objeto C:\Users\xander\Documents\Unreal Projects\Arcanoid_sis457\Intermediate\Build\Win64\UE4Editor\Development\Arcanoid_sis457\UE4Editor-Arcanoid_sis457-6487.exp
+  [2/3] UE4Editor-Arcanoid_sis457-6487.dll
+     Creando biblioteca C:\Users\xander\Documents\Unreal Projects\Arcanoid_sis457\Intermediate\Build\Win64\UE4Editor\Development\Arcanoid_sis457\UE4Editor-Arcanoid_sis457-6487.suppressed.lib y objeto C:\Users\xander\Documents\Unreal Projects\Arcanoid_sis457\Intermediate\Build\Win64\UE4Editor\Development\Arcanoid_sis457\UE4Editor-Arcanoid_sis457-6487.suppressed.exp
+  PaddlePlayerController.cpp.obj : error LNK2019: s?mbolo externo "private: __cdecl APaddlePlayerController::APaddlePlayerController(void)" (??0APaddlePlayerController@@AEAA@XZ) sin resolver al que se hace referencia en la funci?n "public: static void __cdecl APaddlePlayerController::__DefaultConstructor(class FObjectInitializer const &)" (?__DefaultConstructor@APaddlePlayerController@@SAXAEBVFObjectInitializer@@@Z)
+  PaddlePlayerController.gen.cpp.obj : error LNK2001: s?mbolo externo "private: __cdecl APaddlePlayerController::APaddlePlayerController(void)" (??0APaddlePlayerController@@AEAA@XZ) sin resolver
+  PaddlePlayerController.gen.cpp.obj : error LNK2001: s?mbolo externo "private: virtual void __cdecl APaddlePlayerController::SetupInputComponent(void)" (?SetupInputComponent@APaddlePlayerController@@EEAAXXZ) sin resolver
+  C:\Users\xander\Documents\Unreal Projects\Arcanoid_sis457\Binaries\Win64\UE4Editor-Arcanoid_sis457-6487.dll : fatal error LNK1120: 2 externos sin resolver
